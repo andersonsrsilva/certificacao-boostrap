@@ -1,0 +1,25 @@
+{
+  "name": "certificacao-boostrap",
+  "description": "curso certificao bootstrap",
+  "main": "index.js",
+  "authors": [
+    "Anderson Silva"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "curso",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/andersonsrsilva/certificacao-boostrap",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./source/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
