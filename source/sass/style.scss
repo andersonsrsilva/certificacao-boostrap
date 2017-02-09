@@ -1,7 +1,18 @@
-body {
-  background-color: #fff;
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Agency FB";
+html {
+  font-size: 20px;
 }
+
+body {
+  padding: 10px;
+  background: #2C3E50;
+  font-size: 20px;
+}
+
+/* Componet card */
+@import "card/card.scss";

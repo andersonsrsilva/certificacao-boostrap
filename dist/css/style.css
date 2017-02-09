@@ -1,5 +1,46 @@
-body {
-  background-color: #fff; }
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
 
-h1 {
-  font-family: "Agency FB"; }
+html {
+  font-size: 20px; }
+
+body {
+  padding: 10px;
+  background: #2C3E50;
+  font-size: 20px; }
+
+/* Componet card */
+/* card */
+/* card header */
+/* componnet modify */
+/* card */
+/* card header */
+/* componnet modify */
+/* card */
+/* card header */
+/* componnet modify */
+.card {
+  width: 100%;
+  background: #FFF;
+  min-height: 10minvh;
+  float: left; }
+  .card .card-header {
+    height: 50px;
+    line-height: 50px;
+    background: #F39C12; }
+    .card .card-header .card-title {
+      font-size: 1rem;
+      text-align: center;
+      font-weight: bold; }
+  .card .card-body {
+    padding: 10px; }
+  .card.card-primary .card-header {
+    background: #2980B9; }
+  .card.card-info .card-header {
+    background: #b93853; }
+  @media (max-width: 480px) {
+    .card.card-01, .card.card-02 {
+      width: 50%;
+      float: left; } }

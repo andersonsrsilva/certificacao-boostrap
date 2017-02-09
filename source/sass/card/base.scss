@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.card {
+  width: $card-width;
+  background: $card-bg;
+  min-height: $card-min-height;
+  float: left;
+
+  .card-header {
+    height: $card-header-height;
+    line-height: $card-header-line-height;
+    background: $card-header-background;
+
+    .card-title {
+      font-size: $card-title-font-size;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  @include card-custom('primary', $card-header-primary-bg);
+  @include card-custom('info', $card-header-info-bg);
+
+  @media (max-width: 480px) {
+    &.card-01,
+    &.card-02 {
+      width: 50%;
+      float: left;
+    }
+  }
+}
