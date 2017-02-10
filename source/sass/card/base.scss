@@ -21,6 +21,10 @@
 
   .card-body {
     padding: 10px;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   @include card-custom('primary', $card-header-primary-bg);

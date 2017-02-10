@@ -36,6 +36,8 @@ body {
       font-weight: bold; }
   .card .card-body {
     padding: 10px; }
+    .card .card-body img {
+      max-width: 100%; }
   .card.card-primary .card-header {
     background: #2980B9; }
   .card.card-info .card-header {
