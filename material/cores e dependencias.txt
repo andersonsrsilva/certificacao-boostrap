@@ -1,0 +1,16 @@
+//////////// CORES ////////////
+cor da barra lateral: #2f3b4c
+cor de marcação da barra lateral: #00bfe8
+cor do status: #33DE80
+cor do box "total sales": #ff8761
+cor do box "newquote": #57bdde
+cor do box "products": #6dc7be
+cor do box "orders": #B198DC
+cor da maioria dos textos: #b0bec5
+
+//////////// BOWER ////////////
+baixar o font-awesome como dependencia
+comando: bower install --save components-font-awesome
+
+Créditos do layout que iremos desenvolver
+https://dribbble.com/shots/2041516-Smart-Admin-Dashboard
