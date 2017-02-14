@@ -1,4 +1,30 @@
 @import "../components/bootstrap/scss/bootstrap";
 @import "../components/font-awesome/scss/font-awesome";
 
+.offcanvas {
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #2f3b4c;
+
+  .heading {
+    background-color: #00bfe8;
+    padding: 1.125rem;
+  }
+}
+
+.profile {
+  .profile-thumbnail {
+    @extend .col-sm-2;
+    .profile-img {
+      @extend .img-fluid;
+      border-radius: 50%;
+    }
+  }
+  .profile-info {
+    @extend .col-sm-8;
+  }
+}
 
